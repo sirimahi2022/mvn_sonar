@@ -150,6 +150,7 @@
 		  <configuration>
 			  <testFailureIgnore>true</testFailureIgnore>
 		  </configuration>
+	  </plugin>
 	  </plugins>
   </build> 
   <reporting>
