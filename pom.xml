@@ -112,7 +112,7 @@
                     <targetUrl>http://34.69.103.139:8098/rest/demo</targetUrl>
                 </configuration>
             </plugin>
-	    <-- <plugin>
+	    <!--<plugin>
 	               <groupId>br.com.softplan.security.zap</groupId>
 	               <artifactId>zap-maven-plugin</artifactId>
 	               <version>1.2.1-0</version>
