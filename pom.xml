@@ -4,7 +4,7 @@
 
   <groupId>sonar_test</groupId>
   <artifactId>com.sonar.maven</artifactId>
-  <version>3.6</version>
+  <version>3.7</version>
   <packaging>jar</packaging>
 
   <name>com.sonar.maven</name>
@@ -72,13 +72,8 @@
           <plugin>
               <groupId>org.owasp</groupId>
               <artifactId>dependency-check-maven</artifactId>
-              <version>6.2.2</version>
-	      <configuration>
-		   <formats>
-		       <format>html</format>
-		       <format>json</format>
-		   </formats>
-	      </configuration>
+              <version>6.2.2</version>   
+		
               <executions>
                   <execution>
                       <goals>
@@ -94,6 +89,11 @@
               <centralAnalyzerEnabled>false</centralAnalyzerEnabled>  
               <!-- Am I the latest version? -->  
               <versionCheckEnabled>true</versionCheckEnabled>  
+	      <formats>
+		  <format>html</format>
+		  <format>json</format>
+		  <format>ALL</format>
+	     </formats>
              </configuration>  
             </plugin>	    
            <plugin>
