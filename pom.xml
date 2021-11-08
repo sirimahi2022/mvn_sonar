@@ -84,12 +84,7 @@
               <!-- Am I the latest version? -->  
               <versionCheckEnabled>true</versionCheckEnabled>  
              </configuration>  
-            </plugin>
-	    <plugin>
-		<groupId>org.codehaus.mojo>/groupId>
-		<artifactId>sonar-maven-plugin</artifactId>
-		<version>3.0.2</version>
-	     </plugin>
+            </plugin>	    
            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
@@ -155,6 +150,10 @@
 			  <testFailureIgnore>true</testFailureIgnore>
 		  </configuration>
 	  </plugin>
+	  <plugin>
+		  <groupId>org.codehaus.mojo</groupId>
+		  <artifactId>sonar-maven-plugin</artifactId>
+		  <version>3.0.2</version>
 	  </plugins>
   </build> 
   <reporting>
